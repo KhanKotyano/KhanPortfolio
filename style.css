@@ -1,0 +1,38 @@
+/* Custom styles */
+:root {
+  --primary: #3a86ff;
+  --spacing: 2rem;
+}
+
+header {
+  padding: calc(var(--spacing) * 2) 0;
+  text-align: center;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+
+nav ul {
+  justify-content: center;
+}
+
+hgroup h1 {
+  margin-bottom: 0.5rem;
+}
+
+section {
+  margin: calc(var(--spacing) * 2) 0;
+  padding: var(--spacing) 0;
+}
+
+article {
+  margin-bottom: var(--spacing);
+  padding: 1.5rem;
+  border-left: 4px solid var(--primary);
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+footer {
+  margin-top: calc(var(--spacing) * 2);
+  padding: var(--spacing) 0;
+  text-align: center;
+  border-top: 1px solid #eee;
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="container">
+        <nav>
+            <ul>
+                <li><strong>Your Name</strong></li>
+            </ul>
+            <ul>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <hgroup>
+            <h1>Senior Software Developer</h1>
+            <h2>C Specialist | Systems Programming</h2>
+        </hgroup>
+    </header>
+
+    <main class="container">
+        <section id="projects">
+            <h2>Projects</h2>
+            <article>
+                <h3>Project Title 1</h3>
+                <p>Description of your project. Highlight technologies used (C, Linux, etc.).</p>
+                <a href="#" role="button">View Code</a>
+            </article>
+            <article>
+                <h3>Project Title 2</h3>
+                <p>Another project description. Focus on problem-solving aspects.</p>
+                <a href="#" role="button">View Demo</a>
+            </article>
+        </section>
+
+        <section id="skills">
+            <h2>Technical Skills</h2>
+            <div class="grid">
+                <div>
+                    <h3>Languages</h3>
+                    <ul>
+                        <li>C (Expert)</li>
+                        <li>Python</li>
+                        <li>Bash/Shell</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Systems</h3>
+                    <ul>
+                        <li>Linux Kernel</li>
+                        <li>Embedded Systems</li>
+                        <li>Network Programming</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Tools</h3>
+                    <ul>
+                        <li>Git</li>
+                        <li>GDB</li>
+                        <li>Make/CMake</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form name="contact" netlify>
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <textarea name="message" placeholder="Message" rows="3" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="container">
+        <small>
+            Built with <a href="https://picocss.com" target="_blank">Pico.css</a> • 
+            Hosted on <a href="https://netlify.com" target="_blank">Netlify</a>
+        </small>
+    </footer>
+</body>
+</html>
